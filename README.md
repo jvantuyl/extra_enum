@@ -16,7 +16,7 @@ package can be installed by adding `extra_enum` to your list of dependencies in
 ```elixir
 def deps do
   [
-    {:extra_enum, "~> 0.1.0"}
+    {:extra_enum, "~> 0.1.1"}
   ]
 end
 ```

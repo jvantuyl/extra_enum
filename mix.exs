@@ -1,12 +1,12 @@
 defmodule ExtraEnum.MixProject do
   use Mix.Project
 
-  @version "0.1.0"
+  @version "0.1.1"
 
   def project do
     [
       app: :extra_enum,
-      version: "0.1.0",
+      version: @version,
       elixir: "~> 1.11.1",
       elixirc_paths: elixirc_paths(Mix.env()),
       start_permanent: false,
